@@ -40,7 +40,7 @@
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <125>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
@@ -67,7 +67,7 @@
             bindings = <
               &kp TILDE       &kp HOME   &kp UP_ARROW  &kp END    &kp LBRC    &kp RBRC  &kp NUMBER_7             &kp NUMBER_8        &kp NUMBER_9  &kp NUMBER_0
               &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &mt LEFT_SHIFT NUMBER_4  &mt LCTRL NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1             &kp NUMBER_2        &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
+&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &kp EQUAL     &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1             &kp NUMBER_2        &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
                                          &trans        &trans     &trans      &trans    &trans                   &kp DOT
             >;
         };
@@ -75,10 +75,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-                &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&studio_unlock  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
-                                  &trans    &trans      &trans         &trans     &trans         &trans
+                &kp EXCL  &kp AT   &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT    &kp DQT
+                &kp F1    &kp F2   &kp F3    &kp F4      &kp F5         &kp F6     &kp F7         &kp F8           &kp F9     &kp BACKSLASH
+&studio_unlock  &kp F10   &kp F11  &kp F12   &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &kp GRAVE  &kp SLASH      &kp HOME
+                                   &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
 
